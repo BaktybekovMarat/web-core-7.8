@@ -17,7 +17,7 @@ body {
   width: 320px;
   height: 100dvh;
   min-height: 550px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 .navigation-menu__up-buttons {
   width: 40px;
@@ -63,7 +63,7 @@ img:hover {
 .navigation-menu__down-buttons {
   display: flex;
   gap: 20px;
-  margin: 255px 0px 20px 12px;
+  margin: auto 0px 20px 12px;
 }
 .navigation-menu__contacts {
   color: #1b1c21;
